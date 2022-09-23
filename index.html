@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- linked CSS bootstrap -->
+
+    <script src="js/bootstrap.js"></script>
+    <!-- linked jS bootstrap -->
+
+    <style>
+        img{
+            width: 400px;
+            height: 400px;
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Grid System - Provides the page layout (positioning items on the page) -->
+    <!-- Tables, CSS Flexbox -->
+
+    <!-- Container - holds every content of the page, navbar to footer -->
+    <!-- class Container, class container-fluid -->
+
+    <!-- grid system - section a page in terms of rows and collumns -->
+    <!-- a row is devided into 12 equal grids -->
+    <!-- for example 2 columns , each column covers 6 grids -->
+
+    <div class="container-fluid bg-info">
+        <h1 class="display-2 text-center">FLEX STORES</h1>
+        <!-- a row of two columns -->
+        <section class="row mb-3 ">
+            <div class="col-6 text-center mr-2 p-5">
+                <h4 class="text-center">Bedding</h4>
+                <img src="images/bed 1.jpeg" alt="bed" class="img-thumbnail">
+                <br>
+                <strike>ksh 30,000</strike>
+                <p>25,000</p>
+                <p class="muted"></p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+
+            <div class="col-6 text-center p-5">
+                <h4>kitchen</h4>
+                <img src="images/microwave 2.webp" alt="kit" class="img-thumbnail">
+                <br>
+                <strike>ksh 15,000</strike>
+                <p>10,000</p>
+                <p class="muted"></p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+        </section>
+        <!-- end first row -->
+
+        <section class="row mb-3">
+            <!-- a row of four equal columns -->
+
+            <div class="col-3 mr-2">
+                <h4>fridge (black)</h4>
+                <img src="images/fridge 1.webp" alt="fridge" class="img-thumbnail">
+                <br>
+                <strike>ksh 38,000</strike>
+                <p class="muted">ksh 31,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+
+            <div class="col-3 ">
+                <h4>fridge (white)</h4>
+                <img src="images/fridge 2.jpeg" alt="fr" class="img-thumbnail">
+                <br>
+                <strike>ksh 35,000</strike>
+                <p class="muted">30,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+
+            <div class="col-3 mr-5">
+                <h4>washing machine</h4>
+                <img src="images/mi.jpeg" alt="wm" class="img-thumbnail">
+                <br>
+                <strike>ksh 68,000</strike>
+                <p class="muted">65,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+            <div class="col-3 mr-5">
+                <h4>couch</h4>
+                <img src="images/couch.jpeg" alt="ch" class="img-thumbnail">
+                <br>
+                <strike>ksh 60,000</strike>
+                <p class="muted">55,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+
+            </div>
+
+
+            
+
+        </section>
+        <!-- end second row -->
+
+        <section class="row">
+            <!-- row of 2 unequal columns( 4, 8) -->
+            <div class="col-4">
+                <img src="images/coocker.webp" alt="ck">
+                <br>
+                <strike>ksh 24,000</strike>
+                <p class="muted">20,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+                
+
+            </div>
+
+
+            <div class="col-8">
+                <img src="images/bed 2.jpeg" alt="">
+                <br>
+                <strike>ksh 30,000</strike>
+                <p class="muted">26,000</p>
+                <a href="" class="btn btn-primary btn-lg">Order now</a>
+
+            </div>
+
+        </section>
+        <!-- end third row -->
+
+        <!-- <h1 class="display-2 text-center">CONTAINER</h1> -->
+
+    </div>
+    <!-- end container -->
+    
+</body>
+</html>
